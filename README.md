@@ -9,6 +9,7 @@ The following technologies were used to develop this website:
 1.  **React**
 2.  **TailwindCSS**
 3.  **GitHub**
+4.  **Pixabay**
 
 ## 💻 What was installed?
 

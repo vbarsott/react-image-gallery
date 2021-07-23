@@ -12,7 +12,7 @@ The following technologies were used to develop this website:
 
 ## 💻 What was installed?
 
-# GitHub setup
+### GitHub setup
 
     echo "# react-image-gallery" >> README.md
     git init
@@ -23,13 +23,16 @@ The following technologies were used to develop this website:
     git push -u origin main
     disable node_modules on gitignore (# dependencies node_modules)
 
-# React setup
+### React setup
 
     npx create-react-app react-image-gallery
     cd react-image-gallery/
     npm start
     npm i react-router-dom
+    npm i postcss-cli
+    npm i autoprefixer
 
-# TailwindCSS setup
+### TailwindCSS setup
 
-    npm i -D tailwind
+    npm i -D tailwindcss
+    npx tailwind init tailwind.js

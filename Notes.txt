@@ -1,0 +1,18 @@
+- Initial procedures: see README.md
+
+- Adjust package.json
+"scripts": {
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run build:css && react-scripts build",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+  },
+
+- Style the first card
+
+- Setup Pixabay
+  - Create an account
+  - Get the pixabay key
+  - Create a .env file and setup with the key
+
+- Fetch
